@@ -1,0 +1,12 @@
+export { default as clearDay } from "./clear_day.png";
+export { default as clearNight } from "./clear_night.png";
+export { default as cloudyDay } from "./cloudy-day.svg";
+export { default as cloudyNight } from "./cloudy-night.svg";
+export { default as cloudy } from "./cloudy.svg";
+export { default as rainy } from "./rainy-6.svg";
+export { default as snowy } from "./snowy-6.svg";
+export { default as thunder } from "./thunder.svg";
+export { default as hazeDay } from "./Haze_day.png";
+export { default as hazeNight } from "./Haze_night.png";
+export { default as partlyCloudyDay } from "./partlyCloudy_day.png";
+export { default as mainWeather } from "./weather.svg";
