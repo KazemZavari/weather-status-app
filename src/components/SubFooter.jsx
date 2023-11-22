@@ -15,6 +15,7 @@ const SubFooter = () => {
           <a
             href="https://github.com/KazemZavari"
             className="underline hover:no-underline hover:text-gray-300 cursor-pointer ml-1"
+            target="_blank"
           >
             Kazem Zavari
           </a>{" "}

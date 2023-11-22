@@ -3,9 +3,11 @@ import {
   clearNight,
   cloudyDay,
   cloudyNight,
+  rainyDay,
+  rainyNight,
+  snowyDay,
+  snowyNihgt,
   mainWeather,
-  rainy,
-  snowy,
   thunder,
   hazeDay,
   hazeNight,
@@ -13,15 +15,15 @@ import {
 // import rainy from "../assets/Weather-icons/index"
 const Icon = ({ weather, hours }) => {
   const checkIcon = () => {
-    if ((hours > 19 ) ) {
+    if ((hours > 19) | (hours < 5)) {
       if (weather.weather[0].main === "Clear") {
         return clearNight;
       } else if (weather.weather[0].main === "Clouds") {
         return cloudyNight;
       } else if (weather.weather[0].main === "Rain") {
-        return rainy;
+        return rainyNight;
       } else if (weather.weather[0].main === "ُSnow") {
-        return snowy;
+        return snowyNihgt;
       } else if (weather.weather[0].main === "Haze") {
         return hazeNight;
       } else if (weather.weather[0].main === "Mist") {
@@ -35,9 +37,9 @@ const Icon = ({ weather, hours }) => {
       } else if (weather.weather[0].main === "Clouds") {
         return cloudyDay;
       } else if (weather.weather[0].main === "Rain") {
-        return rainy;
+        return rainyDay;
       } else if (weather.weather[0].main === "ُSnow") {
-        return snowy;
+        return snowyDay;
       } else if (weather.weather[0].main === "Haze") {
         return hazeDay;
       } else if (weather.weather[0].main === "Mist") {
@@ -52,7 +54,6 @@ const Icon = ({ weather, hours }) => {
   return (
     <div className="flex justify-center ">
       <img
-        // src={weatherImg}
         src={checkIcon()}
         className="w-[210px] mt-[10px]"
         alt=" weather icon "

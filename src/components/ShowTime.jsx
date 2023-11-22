@@ -8,10 +8,10 @@ const ShowTime = ({ handleButton }) => {
     return (
       <span
         className="text-yellow-200 lg:text-slate-100 flex justify-center align-middle 
-                   md:pt-4 pt-2 text-[16px] md:text-[14px] sm:text-[12px]"
+                   md:pt-4 pt-2 text-[16px] md:text-[14px] sm:text-[16px]"
       >
         <span
-          className="mr-2 mt-[-16px] text-[35px] lg:text-[22px] lg:mt-[-5px] sm:text-lg 
+          className="mr-2 mt-[-16px] text-[35px] lg:text-[22px] lg:mt-[-5px] sm:text-[19px] 
                         sm:mt-[-5px] md:mt-[-8px]"
         >
           ⌚
@@ -32,7 +32,7 @@ const ShowTime = ({ handleButton }) => {
         <Clock />{" "}
         <span
           className=" text-yellow-200 lg:text-slate-200 lg:block justify-center
-                           sm:mt-1 text-[16px] pl-2 md:text-[14px] sm:text-[11px]"
+                           sm:mt-[2px] text-[16px] pl-2 md:text-[14px] sm:text-[14px]"
         >
           <span className="lg:inline-block md:hidden hidden">{day},</span>{" "}
           {date} {month} {year}

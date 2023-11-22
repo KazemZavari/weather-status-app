@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Parallax } from "react-parallax";
-import bgImgNight from "./assets/images/night22.jpg";
-import bgImgDay from "./assets/images/1.jpg";
+import bgImgNight from "./assets/images/night.jpg";
+import bgImgDay from "./assets/images/day.jpg";
 import {
   Header,
   Footer,
@@ -42,7 +42,7 @@ const App = () => {
           <Switch handleButton={handleButton} />
         </div>
 
-        <div className="w-[100%] mt-16 mb-5 sm:overflow-y-scroll ">
+        <div className="w-[100%] mt-16 mb-5 md:overflow-y-scroll ">
           <div
             className="flex fixed ml-8 lg:hidden bg-slate-700 opacity-80 hover:opacity-95 
                         cursor-default p-5 rounded-2xl"
