@@ -15,16 +15,16 @@ const Footer = () => {
                             flex justify-end items-center "
         >
           <div
-            className="h-[190px] sm:h-[290px] bg-gradient-to-r to-slate-950 from-blue-950
+            className="h-[190px] md:h-[290px] bg-gradient-to-r to-slate-950 from-blue-950
                              my-auto w-[100%] "
           >
             <div
-              className="text-[14px] md:text-[12px] mt-5 sm:mt-2 text-center grid grid-cols-2
-                         sm:grid-cols-none sm:grid-rows-2 gap-5"
+              className="text-[14px] md:text-[12px] mt-5 md:mt-2 text-center grid grid-cols-2
+                         md:grid-cols-none md:grid-rows-2 gap-5"
             >
               {" "}
-              <div className="col-span-1 sm:row-span-1 text-left ml-52 sm:ml-10 md:mr-0 space-y-3">
-                <h3 className="text-slate-400 md:my-3 mr-5 md:mr-0 sm:mb-2 text-[18px] md:text-[16px]">
+              <div className="col-span-1 md:row-span-1 text-left ml-52 md:ml-10 md:mr-0 space-y-3">
+                <h3 className="text-slate-400 md:my-3 mr-5 md:mr-0 md:mb-2 text-[18px] md:text-[16px]">
                   {" "}
                   Contact The Developer
                 </h3>
@@ -32,8 +32,8 @@ const Footer = () => {
                   <EmailIcon className="mr-1 md:mr-0" />{" "}
                   kazemzavari.69@gmail.com
                 </h5>
-                <h5 className=" text-gray-500 hover:text-gray-400 cursor-pointer mb-2 sm:mb-1">
-                  <LocalPhoneIcon className="mr-1 sm:mr-0" /> +98 - 9101527203
+                <h5 className=" text-gray-500 hover:text-gray-400 cursor-pointer mb-2 md:mb-1">
+                  <LocalPhoneIcon className="mr-1 md:mr-0" /> +98 - 9101527203
                 </h5>
 
                 <h5 className=" text-gray-500 hover:text-gray-400 cursor-pointer text-[14px]">
@@ -49,7 +49,7 @@ const Footer = () => {
                 </h5>
               </div>
               <div
-                className="col-span-1 sm:row-span-1 text-left  ml-10 
+                className="col-span-1 md:row-span-1 text-left  ml-10 
                              text-[16px] md:text-[14px]  "
               >
                 <h3 className="text-slate-400 mb-2 text-[18px] md:text-[17px]">
